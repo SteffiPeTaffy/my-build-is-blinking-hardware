@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>Connect gadget to you WiFi</title>
+  <style media=screen type=text/css>
+    div { position: absolute; margin: auto; top: 0; right: 0; bottom: 0; left: 0; width: 320px; height: 274px}form { width: 320px; text-align: center; position: relative}
+    form fieldset { background: #fff; border: 0 none; border-radius: 5px; box-shadow: 0 0 15px 1px rgba(0, 0, 0, .4); padding: 20px 30px; box-sizing: border-box }
+    form input { padding: 15px; border: 1px solid #ccc; border-radius: 3px; margin-bottom: 10px; width: 100%; box-sizing: border-box; font-family: montserrat; color: #2C3E50; font-size: 13px }
+    form .action-button { width: 100px; background: #27AE60; font-weight: 700; color: #fff; border: 0 none; border-radius: 3px; cursor: pointer; padding: 10px 5px; margin: 10px 5px }
+  </style>
+</head>
+<body>
+  <div>
+    <fieldset>
+      <h2>$HEAP bytes of heap remaining</h2>
+    </fieldset>
+    <form method='post'>
+      <fieldset>
+        <h2 class=fs-title>WiFi Login</h2>
+        <h3 class=fs-subtitle>Connect gadget to your WiFi</h3>
+        <input autocorrect=off autocapitalize=none name=wifi_ssid placeholder='WiFi Name'>
+        <input type=password name=wifi_password placeholder='Password' 1>
+        <input autocorrect=off autocapitalize=none name=ci_url placeholder='CCtray URL' 1>
+        <input type=submit name=save class='submit action-button' value='Save'>
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
