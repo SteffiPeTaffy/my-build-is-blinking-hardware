@@ -9,7 +9,7 @@ function M.blinkLED(startColor, endColor, duration)
     ws2812.writergb(M.ledPin, startColor)
     tmr.alarm(M.ledTimer, duration, 0, function()
         ws2812.writergb(M.ledPin, endColor)
-    end )
+    end)
 end
 
 return M
