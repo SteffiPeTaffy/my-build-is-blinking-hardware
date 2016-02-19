@@ -21,8 +21,8 @@ end
 function M.startHotspot()
     print("Starting hotspot")
     local cfg = {}
-    cfg.ssid = "ESP Test AP - PP"
-    cfg.pwd = "password"
+    cfg.ssid = require("config").hotspotName
+    cfg.pwd = require("config").hotspotPass
 
     wifi.setmode(wifi.SOFTAP)
     wifi.ap.config(cfg)
