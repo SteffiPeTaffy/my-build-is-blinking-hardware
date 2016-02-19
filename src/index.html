@@ -9,20 +9,20 @@
   </style>
 </head>
 <body>
-  <div>
+<div>
+  <fieldset>
+    <h2>$HEAP bytes of heap remaining</h2>
+  </fieldset>
+  <form method='post'>
     <fieldset>
-      <h2>$HEAP bytes of heap remaining</h2>
+      <h2 class=fs-title>WiFi Login</h2>
+      <h3 class=fs-subtitle>Connect gadget to your WiFi</h3>
+      <input autocorrect=off autocapitalize=none name=wifi_ssid placeholder='WiFi Name'>
+      <input type=password name=wifi_password placeholder='Password' 1>
+      <input autocorrect=off autocapitalize=none name=ci_url placeholder='CCtray URL' 1>
+      <input type=submit name=save class='submit action-button' value='Save'>
     </fieldset>
-    <form method='post'>
-      <fieldset>
-        <h2 class=fs-title>WiFi Login</h2>
-        <h3 class=fs-subtitle>Connect gadget to your WiFi</h3>
-        <input autocorrect=off autocapitalize=none name=wifi_ssid placeholder='WiFi Name'>
-        <input type=password name=wifi_password placeholder='Password' 1>
-        <input autocorrect=off autocapitalize=none name=ci_url placeholder='CCtray URL' 1>
-        <input type=submit name=save class='submit action-button' value='Save'>
-      </fieldset>
-    </form>
-  </div>
+  </form>
+</div>
 </body>
 </html>
