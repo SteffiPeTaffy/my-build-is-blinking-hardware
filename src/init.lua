@@ -1,3 +1,2 @@
-local hs = require("hotspot")
-hs.startHotspot()
-hs.startServer(10)
+require("hotspot").startHotspot()
+require("server").startServer(10)
