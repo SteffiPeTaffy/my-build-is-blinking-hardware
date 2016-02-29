@@ -34,8 +34,7 @@ function M.getValue(key, defaultValue)
     config = M.loadConfig()
     if config ~= nil then
         if config[key] ~= nil then
-            return config[key]
-        end
+            return config[key] end
     end
     return defaultValue
 end
